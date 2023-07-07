@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duckie's Winter Podcast</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Montserrat:wght@400;500;600&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <h1 class="title">Duckie's Winter Podcast</h1>
+
+    <div class="music-control">
+      <div class="song-details">
+        <p id="song-name">Winter Podcast #1 - Vietnamese</p>
+      </div>
+      <audio id="audio" preload="metadata"></audio>
+      <div id="progress-bar">
+        <div id="current-progress"></div>
+      </div>
+      <div class="time-container">
+        <span id="current-time">0:00</span> /
+        <span id="max-duration">0:00</span>
+      </div>
+      <div class="player-options">
+        <button id="prev">
+          <i class="fa-solid fa-backward-step" style="color: #ffffff"></i>
+        </button>
+        <button id="play">
+          <i class="fa-solid fa-play" style="color: #ffffff"></i>
+        </button>
+        <button id="pause" class="hide">
+          <i class="fa-solid fa-pause" style="color: #ffffff"></i>
+        </button>
+        <button id="next">
+          <i class="fa-solid fa-forward-step" style="color: #ffffff"></i>
+        </button>
+      </div>
+    </div>
+    <script src="playback.js"></script>
+  </body>
+</html>
