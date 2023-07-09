@@ -14,15 +14,15 @@ let index = 0;
 
 const songsList = [
   {
-    name: "Winter Podcast 1 - Vietnamese",
+    name: "Winter Podcast #1 - Vietnamese",
     link: "winterpodcast_vie.mp3",
   },
   {
-    name: "Winter Podcast 1.1 - German",
+    name: "Winter Podcast #1.1 - German",
     link: "winterpodcast_ger1.mp3",
   },
   {
-    name: "Winter Podcast 1.2 - German",
+    name: "Winter Podcast #1.2 - German",
     link: "winterpodcast_ger2.mp3",
   },
 ];

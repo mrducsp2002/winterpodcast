@@ -5,10 +5,7 @@
 }
 body {
   height: 100vh;
-  background-color: pink;
-  background: linear-gradient(rgba(55, 48, 55, 0.79), rgba(49, 44, 51, 0.79)),
-    url("images.jpeg") no-repeat;
-  background-repeat: no-repeat;
+background: linear-gradient(rgba(216, 213, 193, 0.4), rgba(234, 223, 196, 0.4)), url("background.jpg") no-repeat;  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
