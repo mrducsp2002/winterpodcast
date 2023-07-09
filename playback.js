@@ -91,8 +91,6 @@ const nextSong = () => {
       index += 1;
     }
     setSong(index);
-
-    playAudio();
   }
   // } else {
   //   //else find a random index and play that song
@@ -101,6 +99,7 @@ const nextSong = () => {
   //   // setSong(randIndex);
   //   // playAudio();
   // }
+  playAudio();
 };
 
 const pauseAudio = () => {
